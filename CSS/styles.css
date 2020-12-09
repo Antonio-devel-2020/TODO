@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary: #153e90;
+    --success: #61b15a;
+    --info: #8fce88;
+    --danger: #c75643;
+    --secondary: #f0efef;
+    --dark-blue: #0a043c;
+    --dark: #222831;
+    --light: #0e49b5;
+    --warning: #fc8621;
+}
+
+nav{
+    background: var(--primary);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-form{
+    padding: 40px;
+    margin: 10px;
+    border: 1px solid var(--dark);
+    width: 40%;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    background:  var(--primary);
+    padding: 10px;
+    color: #fff;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid var(--dark);
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+}
+#text{
+    width: 90%;
+    font-size: 15px;
+    color: var(--dark);
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+#button{
+    background: var(--success);
+    cursor: pointer;
+    color: #fff;
+}
+
+#button:hover{
+    background: var(--info);
+}
+
+#update-task{
+    background: var(--primary);
+    color: #fff;
+    cursor: pointer;
+}
+
+#update-task:hover{
+    background: var(--light);
+}
+
+.card-list{
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    padding: 10px;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+#up{
+    background: var(--warning);
+    padding: 10px;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+    background-color: var(--secondary);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+table{
+    justify-content: center;
+    margin: auto;
+}
+
+th{
+    margin: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.update{
+    color: var(--success)
+}
+
+.delete{
+    color: var(--danger);
+}
+
