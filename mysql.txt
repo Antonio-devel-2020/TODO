@@ -1,0 +1,8 @@
+
+
+CREATE TABLE `list` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `description` VARCHAR(50) DEFAULT NULL,
+    `completed` VARCHAR(50) DEFAULT NULL,
+    PRIMARY KEY(`id`)
+)
